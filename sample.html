@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Sample Web Page</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #333;
+    }
+    header, footer {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    footer {
+      border-bottom: none;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="#about">About</a> | 
+      <a href="#features">Features</a> | 
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This is a simple, semantic HTML5 document. Save this code as <strong>index.html</strong> and open it in any web browser to view it.</p>
+    </section>
+
+    <section id="features">
+      <h2>Common HTML Elements</h2>
+      <ul>
+        <li><strong>Headings:</strong> Used for titles and subtitles (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>).</li>
+        <li><strong>Paragraphs:</strong> Used for blocks of text (<code>&lt;p&gt;</code>).</li>
+        <li><strong>Links:</strong> Used to navigate between pages (<code>&lt;a&gt;</code>).</li>
+        <li><strong>Lists:</strong> Used for bulleted or numbered items (<code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>).</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Form Example</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Sample Web Page</p>
+  </footer>
+
+</body>
+</html>
